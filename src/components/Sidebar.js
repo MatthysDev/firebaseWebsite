@@ -9,7 +9,11 @@ const activeStyles = {
 const Sidebar = () => (
   <div className="m-auto md:m-0 md:w-full lg:w-72 p-8 pt-8 h-screen bg-black border-r-2 border-yellow-600 space-y-8">
     <div className="flex flex-col text-gray-500 text-2xl font-vida ">
-      <StaticImage src="../images/logo.png" height="51px" />
+      <StaticImage
+        className="border-green-400 border-4"
+        src="../images/logo.png"
+        height="51px"
+      />
     </div>
 
     <Link

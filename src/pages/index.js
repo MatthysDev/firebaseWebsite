@@ -8,7 +8,11 @@ const IndexPage = () => {
       <p className="pt-4 pb-2 text-left text-lg">
         I'm making this by following the Gatsby Tutorial.
       </p>
-      <StaticImage alt="Beatifull picture" src="../images/image1.jpg" />
+      <StaticImage
+        className="border-green-400 border-4"
+        alt="Beatifull picture"
+        src="../images/image1.jpg"
+      />
     </Layout>
   );
 };
