@@ -16,6 +16,7 @@ const BlogPost = ({ data }) => {
               className="pt-6"
               image={image}
               alt={data.mdx.frontmatter.hero_image_alt}
+              height="100px"
             />
             <div>
               <p className="pt-2 pb-2">

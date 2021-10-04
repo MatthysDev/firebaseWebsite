@@ -17,7 +17,7 @@ const Layout = ({ pageTitle, children }) => {
       <div className="text-center m-auto font-sans">
         <div className="flex">
           <Sidebar />
-          <main className="overflow-auto   h-screen m-auto mt-4 justify-center w-1/2 pt-4">
+          <main className="overflow-auto m-auto mt-4 justify-center w-1/2 pt-4">
             <title>
               {pageTitle} | {data.site.siteMetadata.title}
             </title>

@@ -38,9 +38,15 @@ const Sidebar = () => (
       Blog
     </Link>
 
-    <button class="relative w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-yellow-600 hover:border-yellow-600 hover:bg-yellow-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-      <span class="mx-auto">CV</span>
-    </button>
+    <div className=" w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-yellow-600 hover:border-yellow-600 hover:bg-yellow-600 hover:text-white shadow-md py-2  inline-flex items-center justify-center">
+      <a
+        href="https://profuse-trader-ab8.notion.site/DUCROCQ-Matthys-10c4bc8d977c4fc1a8eb215cf0d7f69c"
+        rel="noreferrer"
+        target="_blank"
+      >
+        CV
+      </a>
+    </div>
   </div>
 );
 
