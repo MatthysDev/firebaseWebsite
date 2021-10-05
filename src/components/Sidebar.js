@@ -17,30 +17,36 @@ const Sidebar = () => (
     </div>
 
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-yellow-600"
       to="/"
       activeStyle={activeStyles}
     >
       Home
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-yellow-600"
       to="/about"
       activeStyle={activeStyles}
     >
       About
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-yellow-600"
       to="/blog"
       activeStyle={activeStyles}
     >
       Blog
     </Link>
 
-    <button class="relative w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-yellow-600 hover:border-yellow-600 hover:bg-yellow-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-      <span class="mx-auto">CV</span>
-    </button>
+    <div className=" w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-yellow-600 hover:border-yellow-600 hover:bg-yellow-600 hover:text-white shadow-md py-2  inline-flex items-center justify-center">
+      <a
+        href="https://profuse-trader-ab8.notion.site/DUCROCQ-Matthys-10c4bc8d977c4fc1a8eb215cf0d7f69c"
+        rel="noreferrer"
+        target="_blank"
+      >
+        CV
+      </a>
+    </div>
   </div>
 );
 
