@@ -17,21 +17,21 @@ const Sidebar = () => (
     </div>
 
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-yellow-600"
       to="/"
       activeStyle={activeStyles}
     >
       Home
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-yellow-600"
       to="/about"
       activeStyle={activeStyles}
     >
       About
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-yellow-600"
       to="/blog"
       activeStyle={activeStyles}
     >
