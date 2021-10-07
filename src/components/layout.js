@@ -18,7 +18,7 @@ const Layout = ({ pageTitle, children }) => {
         <div className="flex">
           <Sidebar />
           <div className="overflow-y-scroll h-screen m-auto justify-center w-full pt-4">
-            <main className=" m-auto mt-4 justify-center w-1/2 pt-4">
+            <main className=" m-auto mt-4 justify-center w-2/3 pt-4">
               <title>
                 {pageTitle} | {data.site.siteMetadata.title}
               </title>
@@ -28,7 +28,7 @@ const Layout = ({ pageTitle, children }) => {
               <h1 className="border-b-2 border-green-700 text-white text-2xl text-left pt-4 pb-4">
                 {pageTitle}
               </h1>
-              <p className="overflow-y-scroll">{children}</p>
+              <p className="overflow-y-scroll m-auto">{children}</p>
             </main>
           </div>
         </div>

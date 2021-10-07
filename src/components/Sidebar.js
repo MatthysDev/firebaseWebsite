@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 const activeStyles = {
-  color: "orange",
+  color: " 	mediumpurple",
 };
 
 const Sidebar = () => (
@@ -17,21 +17,21 @@ const Sidebar = () => (
     </div>
 
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-yellow-600"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
       to="/"
       activeStyle={activeStyles}
     >
       Home
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-yellow-600"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
       to="/about"
       activeStyle={activeStyles}
     >
       About
     </Link>
     <Link
-      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-green-100"
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-purple-400"
       to="/blog"
       activeStyle={activeStyles}
     >
@@ -45,6 +45,15 @@ const Sidebar = () => (
         target="_blank"
       >
         CV
+      </a>
+    </div>
+    <div className=" w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md py-2  inline-flex items-center justify-center">
+      <a
+        href="https://www.linkedin.com/in/matthys-ducrocq-0182381b1/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Linkedin
       </a>
     </div>
   </div>

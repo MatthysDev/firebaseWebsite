@@ -6,25 +6,25 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 const BlogPage = ({ data }) => {
   const image = getImage(data.mdx.frontmatter.hero_image);
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="Articles">
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <p className="justify-center m-auto text-2xl text-left">
             <div className="flex w-full">
               <div className="text-center m-auto w-1/2">
                 <Link
-                  className="pl-2 pt-4 pb-4 text-gray-400 hover:text-yellow-600"
+                  className="pl-2 pt-4 pb-4 text-gray-400 hover:text-purple-400"
                   to={`/blog/${node.slug}`}
                 >
                   {node.frontmatter.title}
                 </Link>
                 <p className="pt-4 text-base m-auto">{node.frontmatter.date}</p>
               </div>
-              <div className="m-8 ">
+              <div className="m-8 w-1/3 ">
                 <GatsbyImage
                   image={image}
                   alt={data.mdx.frontmatter.hero_image_alt}
-                  height="150px"
+                  height="100px"
                   className=" border-purple-400 border-2 pt-4 "
                 />
               </div>
