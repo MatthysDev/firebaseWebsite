@@ -20,15 +20,16 @@ const BlogPage = ({ data }) => {
                 </Link>
                 <p className="pt-4 text-base m-auto">{node.frontmatter.date}</p>
               </div>
-              <div className="m-8">
+              <div className="m-8 ">
                 <GatsbyImage
                   image={image}
                   alt={data.mdx.frontmatter.hero_image_alt}
                   height="150px"
-                  className="pt-4 "
+                  className=" border-purple-400 border-2 pt-4 "
                 />
               </div>
             </div>
+            <hr className="w-2/3 m-auto border-green-700 border-2" />
           </p>
         </article>
       ))}
