@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "private": true,
-  "description": "Website",
+  "description": "Matthys.dev",
   "author": "Matthys Ducrocq",
   "keywords": [
     "gatsby"
@@ -24,7 +24,8 @@
     "gatsby-source-filesystem": "^3.14.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-gravatar": "^2.6.3"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
