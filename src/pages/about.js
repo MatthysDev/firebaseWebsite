@@ -11,7 +11,7 @@ const AboutPage = () => {
         <p>You can learn more about me on this page !</p>
       </div>
       <hr className="border-2 border-green-700 w-1/5 m-auto" />
-      <div className="sm:flex-col md:flex md:flex-row m-auto h-2/3 mb-10 ">
+      <div className="sm:flex-col md:flex md:flex-row m-auto h-2/3 mt-10 mb-10 ">
         <div className="m-auto h-2/3 sm:w-5/6 md:w-1/2 p-4 ">
           <p className=" pt-4 text-xl">
             I currently study in Calais at the IUT to validate my bachelor's
