@@ -12,7 +12,6 @@ const Sidebar = () => (
       <StaticImage
         className="border-purple-400 border-4"
         src="../images/logo.png"
-        height="51px"
       />
     </div>
 

@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { StaticImage } from "gatsby-plugin-image";
+
+import Gravatar from "react-gravatar";
 
 const IndexPage = () => {
   return (
@@ -12,10 +13,11 @@ const IndexPage = () => {
             I'm a web student in computing technology
           </p>
         </div>
-        <StaticImage
-          className="border-green-700 border-2 w-1/3 m-auto"
-          alt="Beatifull picture"
-          src="../images/image1.jpg"
+
+        <Gravatar
+          email="ducrocq.matthys@gmail.com"
+          className="border-purple-400 border-2  m-auto rounded-full "
+          size={200}
         />
       </div>
     </Layout>
