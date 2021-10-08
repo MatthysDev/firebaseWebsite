@@ -10,8 +10,8 @@ const BlogPage = ({ data }) => {
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <p className="justify-center m-auto text-2xl text-left">
-            <div className="flex w-full">
-              <div className="text-center m-auto w-1/2">
+            <div className="sm:flex-col md:flex md:flex-row w-full">
+              <div className="text-center m-auto w-full md:w-1/2">
                 <Link
                   className="pl-2 pt-4 pb-4 text-gray-400 hover:text-purple-400"
                   to={`/blog/${node.slug}`}
@@ -20,7 +20,7 @@ const BlogPage = ({ data }) => {
                 </Link>
                 <p className="pt-4 text-base m-auto">{node.frontmatter.date}</p>
               </div>
-              <div className="m-8 w-1/3 ">
+              <div className="m-auto mt-8 mb-8 md:m-8 w-full md:w-1/3 ">
                 <GatsbyImage
                   image={image}
                   alt={data.mdx.frontmatter.hero_image_alt}
