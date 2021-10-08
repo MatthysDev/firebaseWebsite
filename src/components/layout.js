@@ -28,7 +28,7 @@ const Layout = ({ pageTitle, children }) => {
               <h1 className="border-b-2 border-green-700 text-white text-2xl text-left pt-4 pb-4">
                 {pageTitle}
               </h1>
-              <p className="overflow-y-scroll m-auto">{children}</p>
+              <p className=" m-auto">{children}</p>
             </main>
           </div>
         </div>
