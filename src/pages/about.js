@@ -43,22 +43,9 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="text-xl">
-        <p className="mb-4">
-          As a developer this are the tools that i use to work
-        </p>
         <hr className="border-2 border-green-700 w-1/5 m-auto" />
       </div>
-      <div className="flex-auto mt-4 mb-4">
-        <StaticImage src="../images/fig.png" />
-        <StaticImage src="../images/Tailwind.png" />
-        <StaticImage src="../images/css.png" />
-        <StaticImage src="../images/html.png" />
-        <StaticImage src="../images/js.png" />
-        <StaticImage src="../images/react.png" />
-        <StaticImage src="../images/vsc.png" />
-        <StaticImage src="../images/gatsbt.png" />
-        <StaticImage src="../images/dvr.png" />
-      </div>
+
       <MyTools />
     </Layout>
   );
