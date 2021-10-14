@@ -2,6 +2,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import Layout from "../components/layout";
+import MyTools from "../components/MyTools";
 // Step 2: Define your component
 const AboutPage = () => {
   return (
@@ -58,6 +59,7 @@ const AboutPage = () => {
         <StaticImage src="../images/gatsbt.png" />
         <StaticImage src="../images/dvr.png" />
       </div>
+      <MyTools />
     </Layout>
   );
 };
