@@ -2,6 +2,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import Layout from "../components/layout";
+import MyTools from "../components/MyTools";
 // Step 2: Define your component
 const AboutPage = () => {
   return (
@@ -13,7 +14,7 @@ const AboutPage = () => {
       <hr className="border-2 border-green-700 w-1/5 m-auto" />
       <div className="sm:flex-col md:flex md:flex-row m-auto h-2/3 mt-10 mb-10 ">
         <div className="m-auto h-2/3 sm:w-5/6 md:w-1/2 p-4 ">
-          <p className=" pt-4 text-xl">
+          <p className=" pt-4 text-xl text-left">
             I currently study in Calais at the IUT to validate my bachelor's
             degree in internet and mobile development
           </p>
@@ -30,34 +31,22 @@ const AboutPage = () => {
           className="border-purple-400 border-4 w-2/3 h-2/3 md:w-2/5 md:h-2/5 m-auto"
           src="../images/minia.png"
         />
-        <div className="m-auto h-2/3 sm:w-5/6 md:w-1/2 p-4 ">
-          <p className=" pt-4 text-xl">
-            I cam currently working with David in sandwich courses. We made
-            youtube video about the tools we use to work.
-          </p>
+        <div className="m-auto h-2/3 sm:w-5/6 md:w-1/2 p-4 text-left">
           <p>
-            My principal job is to develop website using ReactJS who is a
-            JavaScript library
+            My main focus is around the JavaScript ecosystem and mainly React.
+          </p>
+          <p className=" pt-4 text-xl">
+            My challenge these days is growing a youtube channel to 100 of
+            followers.With my mentor David Leuliette we do the Pirate Office
+            Hours Show
           </p>
         </div>
       </div>
       <div className="text-xl">
-        <p className="mb-4">
-          As a developer this are the tools that i use to work
-        </p>
         <hr className="border-2 border-green-700 w-1/5 m-auto" />
       </div>
-      <div className="flex-auto mt-4 mb-4">
-        <StaticImage src="../images/fig.png" />
-        <StaticImage src="../images/Tailwind.png" />
-        <StaticImage src="../images/css.png" />
-        <StaticImage src="../images/html.png" />
-        <StaticImage src="../images/js.png" />
-        <StaticImage src="../images/react.png" />
-        <StaticImage src="../images/vsc.png" />
-        <StaticImage src="../images/gatsbt.png" />
-        <StaticImage src="../images/dvr.png" />
-      </div>
+
+      <MyTools />
     </Layout>
   );
 };

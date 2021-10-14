@@ -8,7 +8,9 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <div className="sm:flex-col md:flex md:flex-row m-auto h-2/3 pb-4">
         <div className="m-auto h-2/3  md:p-4 md:mt-48 md:mb-48 ">
-          <p className=" pt-4 text-2xl">Hi ! I'm Matthys 🤟, Welcome ! </p>
+          <p className=" pt-4 text-2xl md:text-left">
+            Hi ! I'm Matthys 🤟, Welcome !{" "}
+          </p>
           <p className="pt-4 pb-8 text-center md:text-left text-lg">
             I'm a web student in computing technology
           </p>
