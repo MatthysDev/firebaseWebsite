@@ -3,11 +3,13 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import Layout from "../components/layout";
 import MyTools from "../components/MyTools";
+import { graphql } from "gatsby";
 // Step 2: Define your component
-const AboutPage = () => {
+const AboutPage = ({ data }) => {
+  const url = data.allYoutubeVideo.edges[0].node.thumbnail.url;
   return (
     <Layout pageTitle="About Me">
-      <div className=" px-4 pt-6 text-center text-xl mb-10">
+      <div className="px-4 pt-6 text-center text-xl mb-10">
         <p>Hi there! I'm the creator of this website.</p>
         <p>You can learn more about me on this page !</p>
       </div>
@@ -27,9 +29,10 @@ const AboutPage = () => {
       </div>
       <hr className="border-2 border-green-700 w-1/5 m-auto" />
       <div className="sm:flex-col md:flex md:flex-row text-xl m-auto h-2/3 mb-10 mt-10 ">
-        <StaticImage
-          className="border-purple-400 border-4 w-2/3 h-2/3 md:w-2/5 md:h-2/5 m-auto"
-          src="../images/minia.png"
+        <img
+          className="  border-purple-400 border-4 w-3/5 h-2/3 md:w-2/5 md:h-2/5 m-auto"
+          src={url}
+          alt=""
         />
         <div className="m-auto h-2/3 sm:w-5/6 md:w-1/2 p-4 text-left">
           <p>
@@ -50,6 +53,18 @@ const AboutPage = () => {
     </Layout>
   );
 };
-
+export const query = graphql`
+  query MyQuery {
+    allYoutubeVideo {
+      edges {
+        node {
+          thumbnail {
+            url
+          }
+        }
+      }
+    }
+  }
+`;
 // Step 3: Export your component
 export default AboutPage;

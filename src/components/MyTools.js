@@ -27,9 +27,9 @@ const MyTools = () => {
       why: "Why : To make your website beautifull",
     },
     {
-      title: "Javascript",
+      title: "JavaScript",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/js.png",
-      what: "javascript is a promgrammation language to make interactive website.",
+      what: "Javascript is a promgrammation language to make interactive website.",
       why: "Why : To have a more dynamic website",
     },
     {
@@ -39,9 +39,9 @@ const MyTools = () => {
       why: "To have a more efficient website with less code",
     },
     {
-      title: "VSC",
+      title: "Visual studio code",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/vsc.png",
-      what: "visual studio code is a text editor, you can add plugins and themes to work in good conditions and faster.",
+      what: "Visual studio code is a text editor, you can add plugins and themes to work in good conditions and faster.",
       why: "Because its the first editor i try and i love it",
     },
     {
@@ -51,7 +51,7 @@ const MyTools = () => {
       why: "To work with plugins and GraphQl",
     },
     {
-      title: "DVR",
+      title: "Da Vinci Resolve",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/dvr.png",
       what: "Da Vinci Resolve is a video editor like final cut but its free.",
       why: "I use it to edit Office hours live each week",
@@ -64,10 +64,10 @@ const MyTools = () => {
         {allToolsIUse.map((tool) => {
           return (
             <>
-              <div className="flex mt-12 mb-12 m-auto w-5/6">
-                <div className="mt-auto mb-auto justify-center">
-                  <img src={tool.logo} alt="" />
-                  <p>{tool.title}</p>
+              <div className="flex mt-12 mb-12 m-auto ">
+                <div className=" justify-center text-center w-1/3">
+                  <img className="m-auto" src={tool.logo} alt="" />
+                  <p className="pt-4">{tool.title}</p>
                 </div>
                 <div className="m-auto justify-center w-2/3 text-left">
                   <div className="text-white">{tool.what}</div>

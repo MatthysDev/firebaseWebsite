@@ -13,11 +13,11 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
   return (
-    <div className="bg-black md:h-full text-white">
+    <div className="bg-black md:h-full text-white ">
       <div className="text-center lg:m-auto font-sans">
         <div className="sm:flex-col lg:flex lg:flex-row">
           <Sidebar />
-          <div className="overflow-y-scroll h-screen m-auto justify-center w-full  pt-4">
+          <div className="overflow-y-scroll h-screen m-auto justify-center w-full  pt-4 font-roboto">
             <main className=" m-auto mt-4 justify-center w-11/12 md:w-2/3 pt-4">
               <title>
                 {pageTitle} | {data.site.siteMetadata.title}
