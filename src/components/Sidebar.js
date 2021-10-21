@@ -30,6 +30,14 @@ const Sidebar = () => (
       About
     </Link>
     <Link
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
+      to="/slides"
+      activeStyle={activeStyles}
+    >
+      Slides
+    </Link>
+
+    <Link
       className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-purple-400"
       to="/blog"
       activeStyle={activeStyles}
