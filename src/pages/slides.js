@@ -7,18 +7,15 @@ const SlidesPage = () => {
     <Layout>
       <div className="sm:flex-col md:flex md:flex-row m-auto h-2/3 mt-10 mb-10 ">
         <div className="m-auto h-2/3 sm:w-5/6 md:w-1/2 p-4 ">
-          <p className=" pt-4 text-xl text-left">
-            Discover my Gatsby v4 presentation
-          </p>
-          <div className="mt-8 flex-col m-auto relative w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md py-2  items-center justify-center">
+          <p className="text-center pt-4 text-left pl-2 pb-4 text-gray-400 hover:text-purple-400 text-2xl">
             <a
               href="https://matthysd-gatsby-slide.netlify.app/#0"
               rel="noreferrer"
               target="_blank"
             >
-              See
+              Discover my Gatsby v4 presentation
             </a>
-          </div>
+          </p>
         </div>
 
         <StaticImage

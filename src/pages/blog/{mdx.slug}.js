@@ -26,7 +26,7 @@ const BlogPost = ({ data }) => {
                   {data.mdx.frontmatter.hero_image_credit_text}
                 </a>
               </p>
-              <div className="m-auto text-left text-sm w-5/6">
+              <div className=" m-auto text-left text-sm w-5/6">
                 <MDXRenderer>{data.mdx.body}</MDXRenderer>
               </div>
             </div>
