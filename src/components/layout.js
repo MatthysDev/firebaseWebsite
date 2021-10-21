@@ -25,9 +25,7 @@ const Layout = ({ pageTitle, children }) => {
               <header className="border-b-2 border-green-700 text-white text-3xl lg:text-5xl font-bold pb-8 ">
                 {data.site.siteMetadata.title}
               </header>
-              <h1 className="border-b-2 border-green-700 text-white text-xl md:text-2xl text-left pt-4 pb-4">
-                {pageTitle}
-              </h1>
+
               <p className=" m-auto">{children}</p>
             </main>
           </div>
