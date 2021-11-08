@@ -25,6 +25,7 @@ const AboutPage = ({ data }) => {
         <StaticImage
           className="border-purple-400 border-4 w-2/3 h-2/3 md:w-2/5 md:h-2/5 m-auto"
           src="../images/IUT.jpg"
+          alt={"img"}
         />
       </div>
       <hr className="border-2 border-green-700 w-1/5 m-auto" />
