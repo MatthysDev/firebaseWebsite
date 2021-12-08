@@ -10,8 +10,8 @@ const Sidebar = () => (
   <div className=" font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black md:border-r-4 lg:border-green-700 lg:space-y-8 space-y-8 border-b-4 lg:border-b-0 border-green-700 ">
     <div className="flex flex-col text-gray-500 text-2xl ">
       <StaticImage
-        className="border-purple-400 border-4 m-auto w-1/3 h-1/3 lg:w-full"
-        src="../images/logo.png"
+        className="border-purple-400 border-4 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
+        src="../images/blackLogo.png"
         alt={"test"}
       />
     </div>
