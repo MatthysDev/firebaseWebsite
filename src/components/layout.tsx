@@ -17,12 +17,12 @@ const Layout = ({ pageTitle, children }) => {
       <div className="text-center lg:m-auto font-sans">
         <div className="sm:flex-col lg:flex lg:flex-row">
           <Sidebar />
-          <div className="overflow-y-scroll h-screen m-auto justify-center w-full  pt-4 font-roboto">
-            <main className=" m-auto mt-4 justify-center w-11/12 md:w-2/3 pt-4">
+          <div className="overflow-y-scroll h-screen m-auto justify-center w-full  pt-0 lg:pt-4 font-roboto">
+            <main className="m-0 m-auto lg:mt-4 justify-center w-11/12 md:w-2/3 pt-4">
               <title>
                 {pageTitle} | {data.site.siteMetadata.title}
               </title>
-              <header className="border-b-2 border-green-700 text-white text-3xl lg:text-5xl font-bold pb-8 ">
+              <header className=" border-b-2 border-green-700 text-white text-3xl lg:text-5xl font-bold pb-8 ">
                 {data.site.siteMetadata.title}
               </header>
 
