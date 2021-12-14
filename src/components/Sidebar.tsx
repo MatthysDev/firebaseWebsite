@@ -45,6 +45,13 @@ const Sidebar = () => (
     >
       Blog
     </Link>
+    <Link
+      className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 py-4 hover:text-purple-400"
+      to="/contact"
+      activeStyle={activeStyles}
+    >
+      Contact
+    </Link>
 
     <div className=" flex-col m-auto relative w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md py-2  items-center justify-center">
       <a
