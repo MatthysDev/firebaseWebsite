@@ -23,8 +23,8 @@ function Sidebar() {
       <div
         className={`${
           toggleNav
-            ? `font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black md:border-r-4 lg:border-green-700 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-700 `
-            : `hidden`
+            ? `hidden lg:visible font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black md:border-r-4 lg:border-green-700 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-700 `
+            : `font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black md:border-r-4 lg:border-green-700 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-700 `
         }`}
       >
         <div className="flex flex-col text-gray-500 text-2xl ">
@@ -81,8 +81,9 @@ function Sidebar() {
             CV
           </a>
         </div>
-        <div className="flex-col m-auto relative w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md py-2   items-center justify-center">
+        <div className="flex-col m-auto relative ">
           <a
+            className="w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md py-2   items-center justify-center"
             href="https://www.linkedin.com/in/matthys-ducrocq-0182381b1/"
             rel="noreferrer"
             target="_blank"
