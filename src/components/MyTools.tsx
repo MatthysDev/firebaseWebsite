@@ -36,25 +36,25 @@ const MyTools = () => {
       title: "React",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/react.png",
       what: "React is Javascript library made by facebook in 2014, you can make components and call it back later.",
-      why: "To have a more efficient website with less code",
+      why: "Why : To have a more efficient website with less code",
     },
     {
       title: "Visual studio code",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/vsc.png",
       what: "Visual studio code is a text editor, you can add plugins and themes to work in good conditions and faster.",
-      why: "Because its the first editor i try and i love it",
+      why: "Why : Because its the first editor i try and i love it",
     },
     {
       title: "Gatsby",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/gatsbt.png",
       what: "Gatsby is an open-source static website generator (SSG) that is based on the frontend development framework React and makes use of Webpack and GraphQL technology.",
-      why: "To work with plugins and GraphQl",
+      why: "Why : To work with plugins and GraphQl",
     },
     {
       title: "Da Vinci Resolve",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/dvr.png",
       what: "Da Vinci Resolve is a video editor like final cut but its free.",
-      why: "I use it to edit Office hours live each week",
+      why: "Why : I use it to edit Office hours live each week",
     },
   ];
 
