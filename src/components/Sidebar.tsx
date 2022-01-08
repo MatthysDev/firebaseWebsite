@@ -92,7 +92,7 @@ function Sidebar() {
           toggleNav ? `visible lg:invisible lg:w-0 lg:h-0 ` : `hidden`
         }`}
       >
-        <div className="font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black  lg:border-green-400 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-400 ">
+        <div className="font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-gray-800  lg:border-green-400 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-400 ">
           <div className="flex flex-col text-gray-500 text-2xl m-auto">
             <StaticImage
               className="border-purple-400 border-2 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
