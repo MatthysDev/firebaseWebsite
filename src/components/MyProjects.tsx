@@ -99,7 +99,7 @@ const MyProjects = () => {
                     className="hover:text-purple-400"
                   >
                     <img
-                      className="m-auto border-4 rounded-md border-purple-400 "
+                      className="m-auto border-2 rounded-md border-purple-400 "
                       src={project.logo}
                       alt=""
                       width={128}

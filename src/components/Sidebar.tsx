@@ -21,10 +21,10 @@ function Sidebar() {
         </button>
       </div>
 
-      <div className="invisible w-0 h-0 p-0 lg:visible font-roboto lg:p-8 md:m-0 sm:w-full lg:h-screen lg:w-72   bg-black md:border-r-4 lg:border-green-700 lg:space-y-8 space-y-8 border-b-4 lg:border-b-0 border-green-700 ">
+      <div className="invisible w-0 h-0 p-0 lg:visible font-roboto lg:p-8 md:m-0 sm:w-full lg:h-screen lg:w-72   bg-gray-800 md:border-r-2 lg:border-green-400 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-400 ">
         <div className="flex flex-col text-gray-500 text-2xl ">
           <StaticImage
-            className="border-purple-400 border-4 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
+            className="border-purple-300 border-2 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
             src="../images/blackLogo.png"
             alt={"test"}
           />
@@ -92,10 +92,10 @@ function Sidebar() {
           toggleNav ? `visible lg:invisible lg:w-0 lg:h-0 ` : `hidden`
         }`}
       >
-        <div className="font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black  lg:border-green-700 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-700 ">
+        <div className="font-roboto p-8 md:m-0 sm:w-full lg:w-72 h-screen  bg-black  lg:border-green-400 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-400 ">
           <div className="flex flex-col text-gray-500 text-2xl m-auto">
             <StaticImage
-              className="border-purple-400 border-4 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
+              className="border-purple-400 border-2 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
               src="../images/blackLogo.png"
               alt={"test"}
             />

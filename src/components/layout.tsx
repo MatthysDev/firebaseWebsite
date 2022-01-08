@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
   return (
-    <div className="bg-black md:h-full text-white ">
+    <div className=" bg-gray-800 md:h-full text-white ">
       <div className="text-center lg:m-auto font-sans">
         <div className="sm:flex-col lg:flex lg:flex-row">
           <Sidebar />
@@ -22,7 +22,7 @@ const Layout = ({ pageTitle, children }) => {
               <title>
                 {pageTitle} | {data.site.siteMetadata.title}
               </title>
-              <header className=" border-b-2 border-green-700 text-white text-3xl lg:text-5xl font-bold pb-8 ">
+              <header className=" border-b-2 border-green-400 text-white text-3xl lg:text-5xl font-bold pb-8 ">
                 {data.site.siteMetadata.title}
               </header>
 

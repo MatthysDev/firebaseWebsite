@@ -29,7 +29,7 @@ const BlogPage = ({ data }) => {
                 />
               </div>
             </div>
-            <hr className="w-2/3 m-auto border-green-700 border-2" />
+            <hr className="w-2/3 m-auto border-green-400 border-2" />
           </p>
         </article>
       ))}
