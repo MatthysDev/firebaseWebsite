@@ -20,7 +20,7 @@ const MyProjects = () => {
     },
     {
       title: "Matthys.dev",
-      logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/blackLogo.png",
+      logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/grayLogo.png",
       what: "This website is my portofolio, you can see my projects and contact me.",
       description:
         "With this website, Recruiters can find my projects and contact me if they are interested by my profile.",
