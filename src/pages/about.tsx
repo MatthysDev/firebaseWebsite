@@ -41,7 +41,7 @@ const AboutPage = ({ data }) => {
             My main focus is around the JavaScript ecosystem and mainly React.
           </p>
           <p className=" pt-4 text-xl">
-            My challenge these days is growing a youtube channel to 100 of
+            My challenge these days is growing a youtube channel to 100
             followers.With my mentor David Leuliette we do the Pirate Office
             Hours Show
           </p>

@@ -5,7 +5,7 @@ const MyTools = () => {
     {
       title: "Figma",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/fig.png",
-      what: "Figma is a design application who help you to make mockup.",
+      what: "Figma is a design application thats help you to make a mockup.",
       why: "Why : I use this for youtube thumbnails and to make my project mockup",
     },
     {
@@ -18,31 +18,31 @@ const MyTools = () => {
       title: "Html",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/html.png",
       what: "Html is the easiest way to make a simple website.",
-      why: "Why : To make website",
+      why: "Why : To make a website",
     },
     {
       title: "Css",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/css.png",
       what: "CSS is to modify your website design.",
-      why: "Why : To make your website beautifull",
+      why: "Why : To make your website beautiful",
     },
     {
       title: "JavaScript",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/js.png",
-      what: "Javascript is a promgrammation language to make interactive website.",
+      what: "Javascript is a programmation language to make an interactive website.",
       why: "Why : To have a more dynamic website",
     },
     {
       title: "React",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/react.png",
-      what: "React is Javascript library made by facebook in 2014, you can make components and call it back later.",
+      what: "React is a Javascript library made by Facebook in 2014, you can make components and call it back later.",
       why: "Why : To have a more efficient website with less code",
     },
     {
       title: "Visual studio code",
       logo: "https://raw.githubusercontent.com/MatthysDucrocq/MatthysDev/main/src/images/vsc.png",
       what: "Visual studio code is a text editor, you can add plugins and themes to work in good conditions and faster.",
-      why: "Why : Because its the first editor i try and i love it",
+      why: "Why : Because its the first editor I try and I love it",
     },
     {
       title: "Gatsby",
