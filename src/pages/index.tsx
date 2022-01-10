@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 
 import Gravatar from "react-gravatar";
+import Social from "../components/social";
 
 const IndexPage = () => {
   return (
@@ -22,6 +23,7 @@ const IndexPage = () => {
           size={200}
         />
       </div>
+      <Social />
     </Layout>
   );
 };
