@@ -73,8 +73,6 @@ function Sidebar() {
         >
           Contact
         </Link>
-
-       
       </div>
 
       <div
