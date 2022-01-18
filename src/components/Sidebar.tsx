@@ -133,15 +133,7 @@ function Sidebar() {
             Contact
           </Link>
 
-          <div className="flex-col m-auto relative w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md py-2   items-center justify-center">
-            <a
-              href="https://www.linkedin.com/in/matthys-ducrocq-0182381b1/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Linkedin
-            </a>
-          </div>
+         
         </div>
       </div>
     </div>
