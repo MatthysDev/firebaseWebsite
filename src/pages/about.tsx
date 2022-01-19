@@ -42,17 +42,15 @@ const AboutPage = ({ data }) => {
           </p>
           <p className=" pt-4 text-xl">
             My challenge these days is growing a youtube channel to 100
-            followers.With my mentor David Leuliette we do the Pirate Office
-            Hours Show
-          </p>
-          <div className="mt-8 m-auto items-center">
+            followers.With my mentor David Leuliette we do the{" "}
             <a
               href="https://www.youtube.com/channel/UCO0X5b0mQ4eIHitXHXSFUyw"
-              className="flex-col relative w-24 bg-white tracking-wide text-gray-800 font-bold rounded border-b-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400 hover:text-white shadow-md p-4   items-center justify-center"
+              className="text-purple-400"
             >
-              Discover the channel
+              Pirate Office Hours Show
             </a>
-          </div>
+          </p>
+          <div className="mt-8 m-auto items-center"></div>
         </div>
       </div>
       <div className="text-xl">

@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 
 const Social = () => {
   return (
-    <div className="flex flex-row space-x-12 m-auto justify-center">
+    <div className="flex flex-row  m-auto items-center justify-center">
       <a href="https://twitter.com/MatthysDev" className="p-4">
         <svg
           width="64"

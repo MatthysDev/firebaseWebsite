@@ -90,7 +90,7 @@ const MyProjects = () => {
         {allProjects.map((project) => {
           return (
             <>
-              <div className="flex mt-12 mb-12 m-auto ">
+              <div className="flex flex-col md:flex-row mt-12 mb-12 m-auto items-center">
                 <div className=" justify-center text-center w-1/3">
                   <a
                     href={project.lien}
@@ -109,8 +109,8 @@ const MyProjects = () => {
                     <p className="p-4 ">{project.title}</p>
                   </a>
                 </div>
-                <div className="  w-2/3 text-left">
-                  <div className="text-white">{project.what}</div>
+                <div className="  w-2/3 text-justify md:text-left">
+                  <div className="text-white pb-2">{project.what}</div>
                   <div className="text-white">{project.description}</div>
                 </div>
               </div>

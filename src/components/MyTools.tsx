@@ -64,7 +64,7 @@ const MyTools = () => {
         {allToolsIUse.map((tool) => {
           return (
             <>
-              <div className="flex mt-12 mb-12 m-auto ">
+              <div className="flex flex-col md:flex-row items-center space-y-4 mt-12 mb-12 m-auto ">
                 <div className=" justify-center text-center w-1/3">
                   <img className="m-auto" src={tool.logo} alt="" />
                   <p className="pt-4">{tool.title}</p>

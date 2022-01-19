@@ -23,20 +23,15 @@ function Sidebar() {
 
       <div className="invisible w-0 h-0 p-0 lg:visible font-roboto lg:p-8 md:m-0 sm:w-full lg:h-screen lg:w-72   bg-gray-800 md:border-r-2 lg:border-green-400 lg:space-y-8 space-y-8 border-b-2 lg:border-b-0 border-green-400 ">
         <div className="flex flex-col text-gray-500 text-2xl ">
-          <StaticImage
-            className="border-purple-300 border-2 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
-            src="../images/grayLogo.png"
-            alt={"test"}
-          />
+          <Link to="/">
+            <StaticImage
+              className="border-purple-300 border-2 m-auto w-1/3 h-1/3  rounded-3xl lg:w-full "
+              src="../images/grayLogo.png"
+              alt={"test"}
+            />
+          </Link>
         </div>
 
-        <Link
-          className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
-          to="/"
-          activeStyle={activeStyles}
-        >
-          Home
-        </Link>
         <Link
           className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
           to="/about"
