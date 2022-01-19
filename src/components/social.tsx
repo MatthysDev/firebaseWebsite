@@ -19,7 +19,7 @@ const Social = () => {
           />
         </svg>
       </a>
-      <a href="https://github.com/MatthysDucrocq/" className="p-4">
+      <a href="https://github.com/MatthysDev/" className="p-4">
         <svg
           width="64"
           height="64"
