@@ -69,7 +69,7 @@ const MyTools = () => {
                   <img className="m-auto" src={tool.logo} alt="" />
                   <p className="pt-4">{tool.title}</p>
                 </div>
-                <div className="m-auto justify-center w-2/3 text-left">
+                <div className="m-auto text-justify justify-center w-2/3 md:text-left">
                   <div className="text-white">{tool.what}</div>
                   <div className="text-white">{tool.why}</div>
                 </div>
