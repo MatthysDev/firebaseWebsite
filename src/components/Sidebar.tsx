@@ -41,10 +41,10 @@ function Sidebar() {
         </Link>
         <Link
           className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
-          to="/slides"
+          to="/talks"
           activeStyle={activeStyles}
         >
-          Slides
+          Talks
         </Link>
         <Link
           className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
@@ -100,10 +100,10 @@ function Sidebar() {
           </Link>
           <Link
             className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
-            to="/slides"
+            to="/talks"
             activeStyle={activeStyles}
           >
-            Slides
+            Talks
           </Link>
           <Link
             className="flex flex-col pt-2 pb-4 relative font-bold text-gray-400 hover:text-purple-400"
