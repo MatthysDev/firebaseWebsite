@@ -42,8 +42,9 @@ const Talks = () => {
         </a>
         !
       </div>
-      <Follow />
+
       <MyTalks />
+      <Follow />
     </Layout>
   );
 };
